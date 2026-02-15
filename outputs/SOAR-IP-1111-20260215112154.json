@@ -1,0 +1,33 @@
+{
+  "case_id": "SOAR-IP-1111-20260215112154",
+  "timestamp_utc": "2026-02-15T11:21:54Z",
+  "indicator": {
+    "type": "ip",
+    "value": "1.1.1.1"
+  },
+  "enrichment": {
+    "ipinfo": {
+      "ip": "1.1.1.1",
+      "hostname": "one.one.one.one",
+      "city": "Brisbane",
+      "region": "Queensland",
+      "country": "AU",
+      "loc": "-27.4679,153.0281",
+      "org": "AS13335 Cloudflare, Inc.",
+      "postal": "9010",
+      "timezone": "Australia/Brisbane",
+      "readme": "https://ipinfo.io/missingauth",
+      "anycast": true
+    },
+    "abuseipdb": null
+  },
+  "soc_assessment": {
+    "severity": "Informational",
+    "confidence": "Low",
+    "recommended_action": "Monitor",
+    "rationale": [
+      "IP attributed to: AS13335 Cloudflare, Inc..",
+      "Geo (approx): Brisbane, AU."
+    ]
+  }
+}

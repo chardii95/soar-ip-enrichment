@@ -1,0 +1,33 @@
+{
+  "case_id": "SOAR-IP-8888-20260215111016",
+  "timestamp_utc": "2026-02-15T11:10:16Z",
+  "indicator": {
+    "type": "ip",
+    "value": "8.8.8.8"
+  },
+  "enrichment": {
+    "ipinfo": {
+      "ip": "8.8.8.8",
+      "hostname": "dns.google",
+      "city": "Mountain View",
+      "region": "California",
+      "country": "US",
+      "loc": "38.0088,-122.1175",
+      "org": "AS15169 Google LLC",
+      "postal": "94043",
+      "timezone": "America/Los_Angeles",
+      "readme": "https://ipinfo.io/missingauth",
+      "anycast": true
+    },
+    "abuseipdb": null
+  },
+  "soc_assessment": {
+    "severity": "Informational",
+    "confidence": "Low",
+    "recommended_action": "Monitor",
+    "rationale": [
+      "IP attributed to: AS15169 Google LLC.",
+      "Geo (approx): Mountain View, US."
+    ]
+  }
+}
